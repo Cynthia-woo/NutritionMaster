@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1710790136594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1710790136594,
+            "name": "Commit-0",
+            "content": ".env\ncommit_to_github.sh\nmonitor_and_commit.sh"
+        }
+    ]
+}

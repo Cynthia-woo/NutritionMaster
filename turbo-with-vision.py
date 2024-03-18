@@ -5,6 +5,7 @@ import requests
 import os
 import csv
 import time
+import re
 
 # OpenAI API Key
 api_key = os.environ.get('OPENAI_API_KEY')
@@ -170,7 +171,24 @@ def make_openai_request(base64_image, total_weight):
     else:
         print('Failed to get response from OpenAI API')
         return None
+
+def extract_json_content(json_content_str):
+    # Find the first occurrence of "```json"
+    start_match = re.search(r'```json', json_content_str)
     
+    # Find the last occurrence of "```"
+    end_match = re.search(r'```', json_content_str[::-1])
+    if end_match:
+        end_index = len(json_content_str) - end_match.start()
+    else:
+        end_index = None
+    
+    if start_match and end_index:
+        # Extract the substring between the first "```json" and the last "```"
+        json_content = json_content_str[start_match.end():end_index].strip()
+        return json_content
+    else:
+        return None
 
 def save_to_json(json_content_str):
     if not os.path.exists('meal_data.json'):
@@ -195,8 +213,11 @@ def save_to_json(json_content_str):
 def main():
     total_weight = get_total_weight()
     base64_image = capture_and_encode_image()
-    json_content_str = make_openai_request(base64_image, total_weight)
-    print(json_content_str)
+    json_content = make_openai_request(base64_image, total_weight)
+    print("json_content", json_content)
+    json_content_str = extract_json_content(json_content)
+    print("json_content_str", json_content_str)
+
     # json_content_str = '''```json
     #     {
     #         "Dish1": {

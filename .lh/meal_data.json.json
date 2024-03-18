@@ -1,0 +1,26 @@
+{
+    "sourceFile": "meal_data.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1710790062606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710790079114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,25 +37,10 @@\n             \"Ingredients\": \"Goji Berries\"\n         }\n     }\n }\n-\n ,\n {\n-    \"Time\": \"2023-04-10T00:00:00Z\",\n-    \"Meal\": {\n-        \"Dish1\": {\n-            \"Dishname\": \"Goji Berries\",\n-            \"Weight\": \"300 grams\",\n-            \"Calories\": \"900\",\n-            \"Macros (Protein/Carbs/Fats)\": \"36g/156g/6g\",\n-            \"Ingredients\": \"Goji Berries\"\n-        }\n-    }\n-}\n-\n-,\n-{\n     \"Time\": \"2023-04-13T12:34:56Z\",\n     \"Meal\": {\n         \"Dish1\": {\n             \"Dishname\": \"Goji Berries\",\n@@ -78,9 +63,8 @@\n             \"Ingredients\": \"Goji Berries\"\n         }\n     }\n }\n-\n ,\n {\n     \"Time\": \"2023-08-29T12:00:00Z\",\n     \"Meal\": {\n"
+                },
+                {
+                    "date": 1710790163720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,19 +63,7 @@\n             \"Ingredients\": \"Goji Berries\"\n         }\n     }\n }\n-,\n-{\n-    \"Time\": \"2023-08-29T12:00:00Z\",\n-    \"Meal\": {\n-        \"Dish1\": {\n-            \"Dishname\": \"Goji Berries\",\n-            \"Weight\": \"500000\",\n-            \"Calories\": \"Unspecified\",\n-            \"Macros (Protein/Carbs/Fats)\": \"Unspecified\",\n-            \"Ingredients\": \"Goji Berries\"\n-        }\n-    }\n-}\n \n+\n ]\n"
+                }
+            ],
+            "date": 1710790062606,
+            "name": "Commit-0",
+            "content": "[\n{\n    \"Time\": \"2023-10-05T07:48:00Z\",\n    \"Meal\": {\n        \"Dish1\": {\n            \"Dishname\": \"Goji Berries\",\n            \"Weight\": \"300 grams\",\n            \"Calories\": \"900 kcal\",\n            \"Macros (Protein/Carbs/Fats)\": \"36g/162g/3g\",\n            \"Ingredients\": \"Goji Berries\"\n        }\n    }\n}\n\n,\n{\n    \"Time\": \"2023-09-27T14:35:00Z\",\n    \"Meal\": {\n        \"Dish1\": {\n            \"Dishname\": \"Goji Berries\",\n            \"Weight\": \"300 grams\",\n            \"Calories\": \"900 kcal\", \n            \"Macros (Protein/Carbs/Fats)\": \"35g/180g/5g\", \n            \"Ingredients\": \"Goji Berries\"\n        }\n    }\n}\n,\n{\n    \"Time\": \"2023-04-15T00:00:00Z\",\n    \"Meal\": {\n        \"Dish1\": {\n            \"Dishname\": \"Dried Goji Berries\",\n            \"Weight\": \"500g\",\n            \"Calories\": \"1800 kcal (approx.)\",\n            \"Macros (Protein/Carbs/Fats)\": \"74g/310g/10g (approx.)\",\n            \"Ingredients\": \"Goji Berries\"\n        }\n    }\n}\n\n,\n{\n    \"Time\": \"2023-04-10T00:00:00Z\",\n    \"Meal\": {\n        \"Dish1\": {\n            \"Dishname\": \"Goji Berries\",\n            \"Weight\": \"300 grams\",\n            \"Calories\": \"900\",\n            \"Macros (Protein/Carbs/Fats)\": \"36g/156g/6g\",\n            \"Ingredients\": \"Goji Berries\"\n        }\n    }\n}\n\n,\n{\n    \"Time\": \"2023-04-13T12:34:56Z\",\n    \"Meal\": {\n        \"Dish1\": {\n            \"Dishname\": \"Goji Berries\",\n            \"Weight\": \"300 grams\",\n            \"Calories\": \"900 to 1050\",\n            \"Macros (Protein/Carbs/Fats)\": \"30g to 39g / 162g to 198g / 3g to 6g\",\n            \"Ingredients\": \"Goji berries\"\n        }\n    }\n}\n,\n{\n    \"Time\": \"2023-04-26T17:54:00Z\",\n    \"Meal\": {\n        \"Dish1\": {\n            \"Dishname\": \"Goji Berries\",\n            \"Weight\": \"500 grams\",\n            \"Calories\": \"1450 kcal\",\n            \"Macros (Protein/Carbs/Fats)\": \"49g/310g/10g\",\n            \"Ingredients\": \"Goji Berries\"\n        }\n    }\n}\n\n,\n{\n    \"Time\": \"2023-08-29T12:00:00Z\",\n    \"Meal\": {\n        \"Dish1\": {\n            \"Dishname\": \"Goji Berries\",\n            \"Weight\": \"500000\",\n            \"Calories\": \"Unspecified\",\n            \"Macros (Protein/Carbs/Fats)\": \"Unspecified\",\n            \"Ingredients\": \"Goji Berries\"\n        }\n    }\n}\n\n]\n"
+        }
+    ]
+}
