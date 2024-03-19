@@ -1,0 +1,123 @@
+[
+    {
+        "Time": "2023-10-05T07:48:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Goji Berries",
+                "Weight": "300 grams",
+                "Calories": "900 kcal",
+                "Macros (Protein/Carbs/Fats)": "36g/162g/3g",
+                "Ingredients": "Goji Berries"
+            }
+        }
+    },
+    {
+        "Time": "2023-09-27T14:35:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Goji Berries",
+                "Weight": "300 grams",
+                "Calories": "900 kcal", 
+                "Macros (Protein/Carbs/Fats)": "35g/180g/5g", 
+                "Ingredients": "Goji Berries"
+            }
+        }
+    },
+{
+    "Time": "2023-04-30T13:45:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Enchiladas",
+            "Weight": "250g",
+            "Calories": "450 kcal",
+            "Macros (Protein/Carbs/Fats)": "20g/50g/20g",
+            "Ingredients": "Tortillas, chicken, cheese, enchilada sauce, jalapenos"
+        },
+        "Dish2": {
+            "Dishname": "Black Bean Soup",
+            "Weight": "350g",
+            "Calories": "300 kcal",
+            "Macros (Protein/Carbs/Fats)": "14g/45g/3g",
+            "Ingredients": "Black beans, vegetable broth, onions, garlic, bell peppers, lime, avocado, cilantro"
+        },
+        "Dish3": {
+            "Dishname": "Taco Salad",
+            "Weight": "200g",
+            "Calories": "350 kcal",
+            "Macros (Protein/Carbs/Fats)": "15g/25g/25g",
+            "Ingredients": "Lettuce, ground turkey, tomatoes, corn, cheese, tortilla chips, Ranch dressing"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-09-22T12:34:56Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Cheese Enchiladas",
+            "Weight": "300g",
+            "Calories": "750",
+            "Macros (Protein/Carbs/Fats)": "20g/80g/40g",
+            "Ingredients": "Tortillas, Cheddar Cheese, Enchilada Sauce, Jalapenos, Onions"
+        },
+        "Dish2": {
+            "Dishname": "Black Bean Soup",
+            "Weight": "250g",
+            "Calories": "200",
+            "Macros (Protein/Carbs/Fats)": "12g/30g/3g",
+            "Ingredients": "Black Beans, Vegetable Stock, Avocado, Lime, Cilantro, Purple Cabbage"
+        },
+        "Dish3": {
+            "Dishname": "Taco Salad",
+            "Weight": "250g",
+            "Calories": "400",
+            "Macros (Protein/Carbs/Fats)": "25g/30g/20g",
+            "Ingredients": "Lettuce, Ground Turkey, Corn, Tomatoes, Cheddar Cheese, Tortilla Chips, Dressing"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-05-25T15:22:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Goji Berries",
+            "Weight": "100 grams",
+            "Calories": "370 kcal",
+            "Macros (Protein/Carbs/Fats)": "14g/77g/0.39g",
+            "Ingredients": "Dried goji berries"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-04-19T20:00:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Goji Berries",
+            "Weight": "200g",
+            "Calories": "700",
+            "Macros (Protein/Carbs/Fats)": "24g/144g/2g",
+            "Ingredients": "Goji berries"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-09-15T03:28:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Goji Berries",
+            "Weight": "100g",
+            "Calories": "370",
+            "Macros (Protein/Carbs/Fats)": "14g/77g/0.1g",
+            "Ingredients": "100% Goji Berries"
+        }
+    }
+}
+
+]

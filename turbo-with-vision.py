@@ -6,6 +6,7 @@ import os
 import csv
 import time
 import re
+import glob
 
 # OpenAI API Key
 api_key = os.environ.get('OPENAI_API_KEY')
@@ -37,7 +38,7 @@ def capture_and_encode_image():
     #         return base64_image
     print("Taking photo in 10 seconds...")
     # Preview the image during the 10-second delay
-    for i in range(5, 0, -1):
+    for i in range(10, 0, -1):
         print(f"Previewing image in {i} seconds...")
         ret, frame = cap.read()
         if not ret:
@@ -57,7 +58,34 @@ def capture_and_encode_image():
     cap.release()
     return base64_image
 
+def get_latest_file(folder, pattern):
+    """Helper function to get the latest file from a given folder with a specific pattern."""
+    list_of_files = glob.glob(os.path.join(folder, pattern))  # * means all if need specific format then *.csv
+    if not list_of_files:  # No files found
+        return None
+    latest_file = max(list_of_files, key=os.path.getctime)
+    return latest_file
 
+def get_total_weight_from_file():
+    """Function to automatically get the total weight from the latest txt file."""
+    latest_txt_file = get_latest_file('./txts', '*.txt')
+    with open(latest_txt_file, 'r') as file:
+        total_weight = file.read().strip()
+    if not total_weight.isdigit():
+        raise ValueError(f"Total weight in file {latest_txt_file} is not a valid number.")
+    return total_weight
+
+def capture_and_encode_image_from_file():
+    """Function to automatically capture the latest image from the folder and encode it."""
+    latest_image_file = get_latest_file('./images', '*.jpg')
+    if latest_image_file is None:
+        latest_image_file = get_latest_file('./images', '*.jpeg')
+    if latest_image_file is None:
+        latest_image_file = get_latest_file('./images', '*.png')
+    with open(latest_image_file, 'rb') as image_file:
+        image_data = image_file.read()
+        base64_image = base64.b64encode(image_data).decode('utf-8')
+    return base64_image
 
 # Function to ask for total weight
 def get_total_weight():
@@ -125,7 +153,7 @@ def make_openai_request(base64_image, total_weight):
           "content": [
             {
               "type": "text",
-              "text": "You are a nutritionist and you always give accurate analyses of food items. Analyze the food in the picture. Calculate the calories, macros, ingredients, and weight for each dish. The total weight of the food is " + total_weight + " grams. Response in a pure JSON format: \n"
+              "text": "You are a nutritionist and you always give accurate analyses of food items. Analyze the food in the picture. If the food has dessert, berverage, appetizer, main dish, soup, salad, calculate according to your estimates. Calculate the calories, macros, ingredients, and weight for each dish and list them from Dish1 to Dish2, Dish3,....but no more than three dishes. The total weight of the food is " + total_weight + " grams. Response in a pure JSON format: \n"
                     "{\n"
                     "    \"Time\": \"\",\n"
                     "    \"Meal\": {\n"
@@ -136,7 +164,7 @@ def make_openai_request(base64_image, total_weight):
                     "            \"Macros (Protein/Carbs/Fats)\": \"\",\n"
                     "            \"Ingredients\": \"\"\n"
                     "        }\n"
-                    "        // More dishes can be added here\n"
+                    "        // More dishes can be added here, same as the dish1 above: dish2, dish3 ....\n"
                     "    }\n"
                     "}\n"
                 "Ensure each dish has a unique index name and value of time is the timestamp user post the request. Standardize the response format as shown above, excluding any additional notes or explanations. If the analysis cannot be provided, refrain from responding."
@@ -167,6 +195,7 @@ def make_openai_request(base64_image, total_weight):
         content = response_json['choices'][0]['message']['content']
         print("Response message:")
         print(content)
+        print("--------------------")
         return content if content.strip() else None
     else:
         print('Failed to get response from OpenAI API')
@@ -191,14 +220,16 @@ def extract_json_content(json_content_str):
         return None
 
 def save_to_json(json_content_str):
-    if not os.path.exists('meal_data.json'):
-        with open('meal_data.json', 'w') as json_file:
+    # Check if meal_data.json exists   
+    json_url = "./nutrition_master/src/meal_data.json"
+    if not os.path.exists(json_url):
+        with open(json_url, 'w') as json_file:
             json_file.write('[\n')
             json_file.write(json_content_str + '\n')
             json_file.write(']\n')
     else:
         try:
-            with open('meal_data.json', 'r+') as json_file:
+            with open(json_url, 'r+') as json_file:
                 content = json_file.read()
                 json_file.seek(0)
                 json_file.write(content[:-2])  # Remove the last comma and newline
@@ -208,11 +239,27 @@ def save_to_json(json_content_str):
         except Exception as e:
             print(f"Error saving JSON to file: {e}")
 
+    #  # Check if meal_data.txt exists
+    # if not os.path.exists('meal_data.txt'):
+    #     try:
+    #         # Load JSON data from meal_data.json
+    #         with open('meal_data.json', 'r') as json_file:
+    #             data = json.load(json_file)
+            
+    #         # Write JSON data to meal_data.txt
+    #         with open('meal_data.txt', 'w') as txt_file:
+    #             txt_file.write(json.dumps(data, indent=4))
+                
+    #     except Exception as e:
+    #         print(f"Error creating meal_data.txt: {e}")
+
 
 # Main function
 def main():
     total_weight = get_total_weight()
     base64_image = capture_and_encode_image()
+    # total_weight = get_total_weight_from_file()
+    # base64_image = capture_and_encode_image_from_file()
     json_content = make_openai_request(base64_image, total_weight)
     print("json_content", json_content)
     json_content_str = extract_json_content(json_content)

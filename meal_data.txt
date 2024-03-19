@@ -1,0 +1,183 @@
+[
+    {
+        "Time": "2023-10-05T07:48:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Goji Berries",
+                "Weight": "300 grams",
+                "Calories": "900 kcal",
+                "Macros (Protein/Carbs/Fats)": "36g/162g/3g",
+                "Ingredients": "Goji Berries"
+            }
+        }
+    },
+    {
+        "Time": "2023-09-27T14:35:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Goji Berries",
+                "Weight": "300 grams",
+                "Calories": "900 kcal",
+                "Macros (Protein/Carbs/Fats)": "35g/180g/5g",
+                "Ingredients": "Goji Berries"
+            }
+        }
+    },
+    {
+        "Time": "2023-04-15T00:00:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Dried Goji Berries",
+                "Weight": "500g",
+                "Calories": "1800 kcal (approx.)",
+                "Macros (Protein/Carbs/Fats)": "74g/310g/10g (approx.)",
+                "Ingredients": "Goji Berries"
+            }
+        }
+    },
+    {
+        "Time": "2023-04-13T12:34:56Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Goji Berries",
+                "Weight": "300 grams",
+                "Calories": "900 to 1050",
+                "Macros (Protein/Carbs/Fats)": "30g to 39g / 162g to 198g / 3g to 6g",
+                "Ingredients": "Goji berries"
+            }
+        }
+    },
+    {
+        "Time": "2023-04-26T17:54:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Goji Berries",
+                "Weight": "500 grams",
+                "Calories": "1450 kcal",
+                "Macros (Protein/Carbs/Fats)": "49g/310g/10g",
+                "Ingredients": "Goji Berries"
+            }
+        }
+    },
+    {
+        "Time": "2023-09-14T17:23:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Spaghetti with Tomato Sauce",
+                "Weight": "300 grams",
+                "Calories": "355 kcal",
+                "Macros (Protein/Carbs/Fats)": "12g/70g/5g",
+                "Ingredients": "Spaghetti, Tomato Sauce, Olive Oil, Basil, Garlic, Salt, Sugar"
+            }
+        }
+    },
+    {
+        "Time": "2023-09-19T12:00:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Seared Tuna Salad",
+                "Weight": "800 grams",
+                "Calories": "600-700 kcal",
+                "Macros (Protein/Carbs/Fats)": "55g/40g/25g",
+                "Ingredients": "Tuna, mixed greens, avocado, cherry tomatoes, cucumbers, carrots, sesame seeds, dressing"
+            }
+        }
+    },
+    {
+        "Time": "2023-05-04T14:42:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Mixed Salad with Sliced Steak",
+                "Weight": "500g",
+                "Calories": "450",
+                "Macros (Protein/Carbs/Fats)": "40g/20g/25g",
+                "Ingredients": "Mixed greens, cucumber, cherry tomatoes, shredded carrots, sliced avocado, sliced steak, seasoning"
+            },
+            "Dish2": {
+                "Dishname": "Noodle Salad with Sesame Seeds",
+                "Weight": "200g",
+                "Calories": "300",
+                "Macros (Protein/Carbs/Fats)": "7g/40g/12g",
+                "Ingredients": "Noodles, sesame seeds, seasoning, oil"
+            }
+        }
+    },
+    {
+        "Time": "2023-05-21T18:30:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Enchiladas",
+                "Weight": "300g",
+                "Calories": "750",
+                "Macros (Protein/Carbs/Fats)": "25g/80g/35g",
+                "Ingredients": "Tortillas, chicken, cheese, enchilada sauce, jalapenos, onions"
+            },
+            "Dish2": {
+                "Dishname": "Black Bean Soup",
+                "Weight": "250g",
+                "Calories": "200",
+                "Macros (Protein/Carbs/Fats)": "12g/30g/3g",
+                "Ingredients": "Black beans, vegetable stock, onions, garlic, cumin, lime, avocado, cabbage, cilantro"
+            },
+            "Dish3": {
+                "Dishname": "Taco Salad",
+                "Weight": "250g",
+                "Calories": "420",
+                "Macros (Protein/Carbs/Fats)": "25g/40g/22g",
+                "Ingredients": "Lettuce, ground beef, tomatoes, cheese, corn, sour cream, tortilla chips"
+            }
+        }
+    },
+    {
+        "Time": "2023-04-20T17:30:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Enchiladas",
+                "Weight": "300g",
+                "Calories": "750",
+                "Macros (Protein/Carbs/Fats)": "35g/65g/40g",
+                "Ingredients": "Tortillas, chicken, cheese, enchilada sauce, jalapenos, cilantro"
+            },
+            "Dish2": {
+                "Dishname": "Taco Soup",
+                "Weight": "250g",
+                "Calories": "200",
+                "Macros (Protein/Carbs/Fats)": "15g/20g/7g",
+                "Ingredients": "Beans, corn, tomatoes, seasoning, beef, avocado, red cabbage, cilantro, lime"
+            },
+            "Dish3": {
+                "Dishname": "Guacamole with Chips",
+                "Weight": "250g",
+                "Calories": "400",
+                "Macros (Protein/Carbs/Fats)": "5g/30g/30g",
+                "Ingredients": "Avocado, onion, tomatoes, lime juice, salt, chips"
+            }
+        }
+    },
+    {
+        "Time": "2023-04-12T12:34:56Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Enchiladas",
+                "Weight": "250g",
+                "Calories": "370",
+                "Macros (Protein/Carbs/Fats)": "22g/45g/14g",
+                "Ingredients": "Tortillas, chicken, cheese, enchilada sauce, jalapenos, onions"
+            },
+            "Dish2": {
+                "Dishname": "Black Bean Soup",
+                "Weight": "250g",
+                "Calories": "210",
+                "Macros (Protein/Carbs/Fats)": "14g/37g/1g",
+                "Ingredients": "Black beans, vegetable stock, onions, garlic, cumin, avocado, lime, cilantro, red cabbage"
+            },
+            "Dish3": {
+                "Dishname": "Taco Salad",
+                "Weight": "300g",
+                "Calories": "520",
+                "Macros (Protein/Carbs/Fats)": "28g/44g/26g",
+                "Ingredients": "Lettuce, ground meat, tomatoes, corn, cheese, tortilla strips, creamy dressing"
+            }
+        }
+    }
+]

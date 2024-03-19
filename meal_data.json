@@ -1,69 +1,26 @@
 [
-{
-    "Time": "2023-10-05T07:48:00Z",
-    "Meal": {
-        "Dish1": {
-            "Dishname": "Goji Berries",
-            "Weight": "300 grams",
-            "Calories": "900 kcal",
-            "Macros (Protein/Carbs/Fats)": "36g/162g/3g",
-            "Ingredients": "Goji Berries"
+    {
+        "Time": "2023-10-05T07:48:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Goji Berries",
+                "Weight": "300 grams",
+                "Calories": "900 kcal",
+                "Macros (Protein/Carbs/Fats)": "36g/162g/3g",
+                "Ingredients": "Goji Berries"
+            }
+        }
+    },
+    {
+        "Time": "2023-09-27T14:35:00Z",
+        "Meal": {
+            "Dish1": {
+                "Dishname": "Goji Berries",
+                "Weight": "300 grams",
+                "Calories": "900 kcal", 
+                "Macros (Protein/Carbs/Fats)": "35g/180g/5g", 
+                "Ingredients": "Goji Berries"
+            }
         }
     }
-}
-
-,
-{
-    "Time": "2023-09-27T14:35:00Z",
-    "Meal": {
-        "Dish1": {
-            "Dishname": "Goji Berries",
-            "Weight": "300 grams",
-            "Calories": "900 kcal", 
-            "Macros (Protein/Carbs/Fats)": "35g/180g/5g", 
-            "Ingredients": "Goji Berries"
-        }
-    }
-}
-,
-{
-    "Time": "2023-04-15T00:00:00Z",
-    "Meal": {
-        "Dish1": {
-            "Dishname": "Dried Goji Berries",
-            "Weight": "500g",
-            "Calories": "1800 kcal (approx.)",
-            "Macros (Protein/Carbs/Fats)": "74g/310g/10g (approx.)",
-            "Ingredients": "Goji Berries"
-        }
-    }
-}
-,
-{
-    "Time": "2023-04-13T12:34:56Z",
-    "Meal": {
-        "Dish1": {
-            "Dishname": "Goji Berries",
-            "Weight": "300 grams",
-            "Calories": "900 to 1050",
-            "Macros (Protein/Carbs/Fats)": "30g to 39g / 162g to 198g / 3g to 6g",
-            "Ingredients": "Goji berries"
-        }
-    }
-}
-,
-{
-    "Time": "2023-04-26T17:54:00Z",
-    "Meal": {
-        "Dish1": {
-            "Dishname": "Goji Berries",
-            "Weight": "500 grams",
-            "Calories": "1450 kcal",
-            "Macros (Protein/Carbs/Fats)": "49g/310g/10g",
-            "Ingredients": "Goji Berries"
-        }
-    }
-}
-
-
 ]

@@ -12,15 +12,13 @@ Before running the script, ensure you have the following installed:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/turbo-with-vision.git
+git clone https://github.com/Cynthia-woo/NutritionMaster.git
 ```
-
 
 2. Navigate to the project directory:
 ```bash
-cd turbo-with-vision
+cd NutritionMaster
 ```
-
 3. Install the required Python packages:
 
 ```bash
@@ -37,6 +35,24 @@ python turbo-with-vision.py
 ```
 
 3. Follow the on-screen instructions to capture images from the webcam and analyze the food items.
+
+## Run React app
+1. Navigate to the folder
+```bash
+cd nutrition_master/src
+```
+
+2. Install requirements
+```bash
+pip install
+```
+
+3. Run the app
+```hash
+flask run
+```
+
+
 
 
 ## Configuration
