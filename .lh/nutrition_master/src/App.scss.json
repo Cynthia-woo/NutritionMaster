@@ -1,0 +1,30 @@
+{
+    "sourceFile": "nutrition_master/src/App.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1710976439727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710976657500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-.App{\n+body{\n     background-color: #042319;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1710976705758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,6 @@\n-body{\n+body {\n     background-color: #042319;\n+}\n+h1 {\n+    color: #fff;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1710976720059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n     background-color: #042319;\n }\n h1 {\n     color: #fff;\n+    font-weight: 500;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1710976439727,
+            "name": "Commit-0",
+            "content": ".App{\n    background-color: #042319;\n}"
+        }
+    ]
+}

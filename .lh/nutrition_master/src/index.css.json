@@ -1,0 +1,30 @@
+{
+    "sourceFile": "nutrition_master/src/index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1710976479558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710976513995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n     sans-serif;\n   -webkit-font-smoothing: antialiased;\n   -moz-osx-font-smoothing: grayscale;\n-  background-color: #042319;\n+  background-color: #7cefca;\n }\n \n code {\n   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n"
+                },
+                {
+                    "date": 1710976548929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n     sans-serif;\n   -webkit-font-smoothing: antialiased;\n   -moz-osx-font-smoothing: grayscale;\n-  background-color: #7cefca;\n+  background-color: #042319;\n }\n \n code {\n   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n"
+                },
+                {
+                    "date": 1710976629446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n     sans-serif;\n   -webkit-font-smoothing: antialiased;\n   -moz-osx-font-smoothing: grayscale;\n-  background-color: #042319;\n+  /* background-color: #042319; */\n }\n \n code {\n   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n"
+                }
+            ],
+            "date": 1710976479558,
+            "name": "Commit-0",
+            "content": "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  background-color: #042319;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n"
+        }
+    ]
+}

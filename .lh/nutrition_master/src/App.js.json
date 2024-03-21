@@ -1,0 +1,46 @@
+{
+    "sourceFile": "nutrition_master/src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1710976287568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710976295207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React, { useState, useEffect } from 'react';\n import jsonData from './meal_data.json';\n-import 'App.css'\n+import './App.css'\n \n function App() {\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1710976378949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React, { useState, useEffect } from 'react';\n import jsonData from './meal_data.json';\n-import './App.css'\n+import './App'\n \n function App() {\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1710976396168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React, { useState, useEffect } from 'react';\n import jsonData from './meal_data.json';\n-import './App'\n+import './App.css'\n \n function App() {\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1710976429169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React, { useState, useEffect } from 'react';\n import jsonData from './meal_data.json';\n-import './App.css'\n+import './App.scss'\n \n function App() {\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1710976641092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React, { useState, useEffect } from 'react';\n import jsonData from './meal_data.json';\n-import './App.scss'\n+import './app.scss'\n \n function App() {\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1710976647205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React, { useState, useEffect } from 'react';\n import jsonData from './meal_data.json';\n-import './app.scss'\n+import './App.scss'\n \n function App() {\n   return (\n     <div>\n"
+                },
+                {
+                    "date": 1710976764271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n function App() {\n   return (\n     <div>\n       <h1>Meal Data Review</h1>\n+      div.container\n       <ul>\n         {jsonData.map((meal, index) => (\n           <li key={index}>\n             <p>Time: {meal.Time}</p>\n"
+                }
+            ],
+            "date": 1710976287567,
+            "name": "Commit-0",
+            "content": "import React, { useState, useEffect } from 'react';\nimport jsonData from './meal_data.json';\nimport 'App.css'\n\nfunction App() {\n  return (\n    <div>\n      <h1>Meal Data Review</h1>\n      <ul>\n        {jsonData.map((meal, index) => (\n          <li key={index}>\n            <p>Time: {meal.Time}</p>\n            <p>Dishname: {meal.Meal.Dish1.Dishname}</p>\n            <p>Weight: {meal.Meal.Dish1.Weight}</p>\n            <p>Calories: {meal.Meal.Dish1.Calories}</p>\n            <p>Macros: {meal.Meal.Dish1[\"Macros (Protein/Carbs/Fats)\"]}</p>\n            <p>Ingredients: {meal.Meal.Dish1.Ingredients}</p>\n          </li>\n        ))}\n      </ul>\n      \n    </div>\n  );\n}\nexport default App;\n"
+        }
+    ]
+}

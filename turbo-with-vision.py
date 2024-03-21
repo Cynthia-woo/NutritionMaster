@@ -167,7 +167,7 @@ def make_openai_request(base64_image, total_weight):
                     "        // More dishes can be added here, same as the dish1 above: dish2, dish3 ....\n"
                     "    }\n"
                     "}\n"
-                "Ensure each dish has a unique index name and value of time is the timestamp user post the request. Standardize the response format as shown above, excluding any additional notes or explanations. If the analysis cannot be provided, refrain from responding."
+                "Ensure each dish has a unique index name and value of time is the current time when user posts this request. Standardize the response format as shown above, excluding any additional notes or explanations. If the analysis cannot be provided, refrain from responding."
             },
             {
               "type": "image_url",
