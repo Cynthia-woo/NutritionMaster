@@ -38,7 +38,7 @@ def capture_and_encode_image():
     #         return base64_image
     print("Taking photo in 10 seconds...")
     # Preview the image during the 10-second delay
-    for i in range(10, 0, -1):
+    for i in range(5, 0, -1):
         print(f"Previewing image in {i} seconds...")
         ret, frame = cap.read()
         if not ret:

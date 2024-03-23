@@ -107,4 +107,172 @@
 }
 
 
+,
+{
+    "Time": "2023-04-07T16:46:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Coconut Water",
+            "Weight": "400 grams",
+            "Calories": "90",
+            "Macros (Protein/Carbs/Fats)": "2g/22g/0g",
+            "Ingredients": "Coconut water, less than 1% fruit sugar, vitamin C (ascorbic acid)"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-09-21T11:45:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Grilled Steak Salad",
+            "Weight": "60",
+            "Calories": "180",
+            "Macros (Protein/Carbs/Fats)": "20g/6g/8g",
+            "Ingredients": "Grilled steak, mixed greens, cherry tomatoes, cucumber, shredded carrots, avocado, vinaigrette dressing"
+        },
+        "Dish2": {
+            "Dishname": "Side of Bread",
+            "Weight": "30",
+            "Calories": "80",
+            "Macros (Protein/Carbs/Fats)": "2g/15g/1g",
+            "Ingredients": "Whole grain bread"
+        },
+        "Dish3": {
+            "Dishname": "Glass of Water",
+            "Weight": "10",
+            "Calories": "0",
+            "Macros (Protein/Carbs/Fats)": "0g/0g/0g",
+            "Ingredients": "Water"
+        }
+    }
+}
+
+,
+{
+  "Time": "2023-04-13T12:00:00Z",
+  "Meal": {
+    "Dish1": {
+      "Dishname": "Trail Mix",
+      "Weight": "200 grams",
+      "Calories": "1000 kcal",
+      "Macros (Protein/Carbs/Fats)": "20g/120g/70g",
+      "Ingredients": "Almonds, Raisins, Peanuts, M&M's, Cashews"
+    }
+  }
+}
+
+,
+{
+    "Time": "2023-05-02T22:05:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Trail Mix",
+            "Weight": "200 grams",
+            "Calories": "Approx. 1200 kcal",
+            "Macros (Protein/Carbs/Fats)": "Approx. 30g/120g/80g",
+            "Ingredients": "Almonds, cashews, peanuts, raisins, chocolate candies"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-10-09T22:31:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Goji Berries",
+            "Weight": "300 grams",
+            "Calories": "900",
+            "Macros (Protein/Carbs/Fats)": "31g/197g/3g",
+            "Ingredients": "Goji Berries"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-09-16T14:52:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Burrito",
+            "Weight": "200 grams",
+            "Calories": "450",
+            "Macros (Protein/Carbs/Fats)": "15g/50g/20g",
+            "Ingredients": "Flour tortilla, chicken, rice, beans, cheese, salsa, sour cream"
+        }
+    }
+}
+
+,
+{
+  "Time": "2023-04-15T12:00:00Z",
+  "Meal": {
+    "Dish1": {
+      "Dishname": "Cheese Quesadilla",
+      "Weight": "300 grams",
+      "Calories": "750",
+      "Macros (Protein/Carbs/Fats)": "35g/68g/40g",
+      "Ingredients": "Flour tortilla, cheese, butter, spices"
+    }
+  }
+}
+
+,
+{
+    "Time": "2023-10-05T14:48:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Trail Mix with Candy",
+            "Weight": "200 grams",
+            "Calories": "Approximately 1000",
+            "Macros (Protein/Carbs/Fats)": "Protein: ~20g / Carbs: ~120g / Fats: ~50g",
+            "Ingredients": "Almonds, peanuts, raisins, candy-coated chocolate pieces, dried fruit"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-04-30T14:35:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Kimchi",
+            "Weight": "300 grams",
+            "Calories": "60 kcal",
+            "Macros (Protein/Carbs/Fats)": "2g/12g/0g",
+            "Ingredients": "Napa cabbage, radish, scallion, red chili pepper flakes, garlic, ginger, sugar, fish sauce, salt"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-04-26T12:34:56Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Goji Berries",
+            "Weight": "30g",
+            "Calories": "98",
+            "Macros (Protein/Carbs/Fats)": "4g/21g/0.1g",
+            "Ingredients": "Goji berries"
+        }
+    }
+}
+
+,
+{
+    "Time": "2023-05-01T20:00:00Z",
+    "Meal": {
+        "Dish1": {
+            "Dishname": "Kimchi",
+            "Weight": "50g",
+            "Calories": "15",
+            "Macros (Protein/Carbs/Fats)": "1g/2g/0g",
+            "Ingredients": "Napa cabbage, salt, Korean red pepper flakes, garlic, ginger, sugar, fish sauce, green onions"
+        }
+    }
+}
+
 ]
